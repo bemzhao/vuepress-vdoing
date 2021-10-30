@@ -345,7 +345,7 @@ export default {
     color $bannerTextColor
     position relative
     overflow hidden
-    color: $textColor
+    color: var(--textColor);
     &:after
       content ''
       position absolute
@@ -354,7 +354,7 @@ export default {
       left 0
       right 0
       opacity 0.88
-      background #fff
+      background var(--bodyBg)
     .banner-conent
       max-width $homePageWidth
       margin 0px auto

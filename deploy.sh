@@ -19,8 +19,8 @@ fi
 git init
 git add -A
 git commit -m "${msg}"
-git config --global user.name bemzhao
-git config --global user.email bem.zhao@foxmail.com
+git config --global user.email "bem.zhao@foxmail.com"
+git config --global user.name "bemzhao"
 git push -f $githubUrl master # 推送到github master分支
 
 cd -
